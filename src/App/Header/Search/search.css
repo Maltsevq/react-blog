@@ -1,0 +1,56 @@
+.submit {
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 20%;
+    left: 10px;
+    top: 12px;
+    position: relative;
+    background: url(images/lupa.png);
+    background-color: #764a56;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .submit:hover {
+      background-color: grey;
+  }
+  
+  .form{
+      width: 250px;
+      height: 60px;
+      float:right;
+      position: relative;
+      top:10px;
+      
+  }
+  
+  .search-window{
+      padding-left: 10px;
+      width: 200px;
+      height: 35px;
+      border-radius: 5px;
+      border: 1px solid #764a56;
+      font-size: 14px;
+      background-color: #292b31;
+      color: #5b636e;
+      -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        
+  }
+  
+  .search-window::-webkit-input-placeholder {
+      color: #5b636e;
+  }
+   
+  .search-window::-moz-placeholder { 
+      color: #5b636e ;  
+  }
+   
+  .search-window::-moz-placeholder { 
+      color: #5b636e;  
+  }
+   
+  .search-window::-ms-input-placeholder {  
+      color: #5b636e ;  
+  }
