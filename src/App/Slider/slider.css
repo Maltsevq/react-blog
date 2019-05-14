@@ -1,3 +1,7 @@
+@import "./slick/slick.css";
+@import "./slick/slick-theme.css";
+
+
 .slider-block{
 	
 	width: 80%;

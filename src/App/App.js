@@ -12,9 +12,9 @@ const App = () => {
   return (
   <div>
     <Header/>
-    {/* <Slider/> */}
     <Main/>
     <Footer/>
+    {/* <Slider/> */}
   </div>
    )
   }

@@ -14,8 +14,7 @@ const Header = () => {
             <div className="col-3">
               <Search/>
               <Logo/>
-            
-          </div> 
+            </div> 
         </div>
       </div>
           <div>

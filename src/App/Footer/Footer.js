@@ -1,5 +1,5 @@
 import React from 'react'
-
+//import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
 
 import './footer.css'
 
@@ -28,14 +28,15 @@ const Footer = () => {
 	<p>© Copiright 2019</p>
 </div>
 <div className="col-8">
+<div>
 	<p>Соц. сети :</p>
-<div className="icon-cont">
-  <ul className="social-icon">
-    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-    <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-  </ul>
+	</div>
+	<div className="social">
+		<a href="https://www.facebook.com/" target="_blank"><input type="submit" name="Facebook" value="" class="facebook"/></a>
+		<a href="https://www.instagram.com/" target="_blank"><input type="submit" name="Instagram" value="" class="instagram"/></a>
+		<a href="https://twitter.com/" target="_blank"><input type="submit" name="Twitter" value="" class="twitter"/></a>
+		<a href="https://telegram.org/" target="_blank"><input type="submit" name="Telegram" value="" class="telegram"/></a>
+		<a href="https://www.viber.com/ru/" target="_blank"><input type="submit" name="Viber" value="" class="viber"/></a>
 </div>
 </div>
 </div>
