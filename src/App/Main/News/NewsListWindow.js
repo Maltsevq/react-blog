@@ -15,10 +15,10 @@ class NewsListWindow extends Component{
       }
       render() {
           const {
-              text,
-              image,
-              categorydevice,
-              categorybrand,
+              text="No text...",
+              image="images/no_photo.jpg",
+              categorydevice="no device...",
+              categorybrand="no brand...",
            } = this.props
 
 return (

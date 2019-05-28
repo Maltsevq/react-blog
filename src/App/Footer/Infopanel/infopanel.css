@@ -13,3 +13,8 @@
 .footext p:first-letter{
 	color:#e43d49; 
 }
+.footext a:hover {
+	text-decoration: underline;
+	
+	
+}
