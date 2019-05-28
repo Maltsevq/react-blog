@@ -7,7 +7,7 @@ import './breadcrumbs.css'
 
 const Breadcrumbs = () => {
     return (
-<div class="breadcrumbs">
+<div className="breadcrumbs">
 			<a href="">Home page</a> /
 			<a href=""> Статьи</a> /
 			<a href=""> Обзоры </a>

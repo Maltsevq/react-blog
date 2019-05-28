@@ -18,7 +18,7 @@ const Header = () => {
         </div>
       </div>
           <div>
-            <nav class="row">
+            <nav className="row">
               <Menu/>
             </nav>
           </div>  

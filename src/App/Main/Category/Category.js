@@ -7,7 +7,7 @@ import './category.css'
 
 const Category = () => {
     return (
-<div class="category">
+<div className="category">
             <div><h1>Категории</h1>
             <p><a href="">Мобильные телефоны</a></p>
             <p><a href="">Планшеты</a></p>

@@ -4,7 +4,7 @@ import './menu.css'
 
 const Menu = () => {
     return ( 
-      <ul class="menu container">
+      <ul className="menu container">
           <li><a href="">Форум</a></li>
           <li><a href="">Игры</a></li>
           <li><a href="">Программы</a></li>

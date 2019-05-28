@@ -39,9 +39,17 @@ body {
 }
 
 .col-8{
-	width: 50%;
+	width: 100%;
 	padding-top: 10px;
-	height: 40px;
+	
+	color: #b2b5ba;
+	text-align: center;
+
+}
+.col-11{
+	width: 50%;
+	height: 50px;
+	padding: 20px 0px 5px 0px;
 	color: #b2b5ba;
 	text-align: center;
 

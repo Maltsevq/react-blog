@@ -5,9 +5,9 @@ import './search.css'
 const Search = () => {
     return (
         <div>
-        <form action="" method="get" class='form'>
-         <input type="search" name="" placeholder="search" class="search-window"/>
-         <input type="submit" name="" value="" class="submit"/>
+        <form action="" method="get" className='form'>
+         <input type="search" name="" placeholder="search" className="search-window"/>
+         <input type="submit" name="" value="" className="submit"/>
     </form>
     </div>
     )

@@ -4,22 +4,22 @@ import './main.css'
 
 import Breadcrumbs from './Breadcrumbs/Breadcrumbs'
 import Category from './Category/Category';
-import News from './News/News'
+import NewsList from './News/NewsList'
 
 const Main = () => {
     return (
     <main className="main">
-        <div class="row">
+        <div className="row">
           <div>
               <Breadcrumbs/>
           </div>
         </div>
-          <div class="col-4">
+          <div className="col-4">
               <Category/>
           </div>
-          <div class="col-5">
-            <div class="row">
-              <News/>
+          <div className="col-5">
+            <div className="row">
+              <NewsList/>
             </div>
           </div>
     </main>
