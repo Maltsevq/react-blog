@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 
 
 import './category.css'
@@ -9,28 +9,28 @@ const Category = () => {
     return (
 <div className="category">
             <div><h1>Категории</h1>
-            <p><a href="">Мобильные телефоны</a></p>
-            <p><a href="">Планшеты</a></p>
-            <p><a href="">Ноутбуки</a></p>
-            <p><a href="">Умные часы</a></p>
-            <p><a href="">Цифровые фотоаппараты</a></p>
+            <p><Link to=''>Мобильные телефоны</Link></p>
+            <p><Link to=''>Планшеты</Link></p>
+            <p><Link to=''>Ноутбуки</Link></p>
+            <p><Link to=''>Умные часы</Link></p>
+            <p><Link to=''>Цифровые фотоаппараты</Link></p>
         </div>
             <div>
             <h1>Темы</h1>
-            <p><a href="">Игры</a></p>
-            <p><a href="">Что купить?</a></p>
-            <p><a href="">Умный дом</a></p>
-            <p><a href="">IFA</a></p>
-            <p><a href="">Как это работает</a></p>
+            <p><Link to=''>Игры</Link></p>
+            <p><Link to=''>Что купить?</Link></p>
+            <p><Link to=''>Умный дом</Link></p>
+            <p><Link to=''>IFA</Link></p>
+            <p><Link to=''>Как это работает</Link></p>
         </div>
 
         <div>
             <h1>Производители</h1>
-            <p><a href="">LG</a></p>
-            <p><a href="">Apple</a></p>
-            <p><a href="">Samsung</a></p>
-            <p><a href="">Meizu</a></p>
-            <p><a href="">Xiaomi</a></p>
+            <p><Link to=''>LG</Link></p>
+            <p><Link to=''>Apple</Link></p>
+            <p><Link to=''>Samsung</Link></p>
+            <p><Link to=''>Meizu</Link></p>
+            <p><Link to=''>Xiaomi</Link></p>
         </div>
         </div>
     )

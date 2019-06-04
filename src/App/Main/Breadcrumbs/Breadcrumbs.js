@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 
 
 import './breadcrumbs.css'
@@ -8,9 +8,9 @@ import './breadcrumbs.css'
 const Breadcrumbs = () => {
     return (
 <div className="breadcrumbs">
-			<a href="">Home page</a> /
-			<a href=""> Статьи</a> /
-			<a href=""> Обзоры </a>
+			<Link to=''>Home page</Link> /
+			<Link to=''> Статьи</Link> /
+			<Link to=''> Обзоры </Link>
 </div>
     )
 }

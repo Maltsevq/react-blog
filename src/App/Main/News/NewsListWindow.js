@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
-
+import {Link} from 'react-router-dom'
 import './news.css'
+
 
 class NewsListWindow extends Component{
     
@@ -26,13 +27,13 @@ return (
                <div className="col-6">
                     <div className="news-window">
                          <div className="img-window">
-                         <a href=""><img className="img-size" src={image} alt=""/></a>
+                         <Link to="/fullpage"><img className="img-size" src={image} alt="" target='_blank'/></Link>
                          </div>
                               <div className="text-window">
-                              <h2><a href="">{text}</a></h2>
+                              <h2><Link to=''>{text}</Link></h2>
                               </div>
                                    <div className="category-window">
-                                   <a href="">{categorydevice} </a><a href="">{categorybrand}</a>
+                                   <Link to=''>{categorydevice} </Link><Link to=''>{categorybrand}</Link>
                                    </div>
                     </div>
                </div>
