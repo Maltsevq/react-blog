@@ -12,7 +12,7 @@ class NewsListWindow extends Component{
           image: PropTypes.string.isRequired,
           categorydevice: PropTypes.string.isRequired,
           categorybrand: PropTypes.string.isRequired,
-          author: PropTypes.string.isRequired
+          
          
       }
       render() {
@@ -21,7 +21,7 @@ class NewsListWindow extends Component{
               image="images/no_photo.jpg",
               categorydevice="no device...",
               categorybrand="no brand...",
-              author='No author',
+             
               
            } = this.props
 

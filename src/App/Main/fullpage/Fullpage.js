@@ -6,7 +6,6 @@ import FullNews from './FullNews';
 import RightNews from './RightNews';
 import news from '../News/news'
 
-
 const Fullpage = (
 
 ) => {
@@ -19,20 +18,13 @@ const Fullpage = (
             {
                         news.map(({
                         id,
-                        text,
-                        image,
-                        categorydevice,
-                        categorybrand,
+                      
                         fullnews,
                         author,
-                        
-                        }) => (
+                            }) => (
                             <div key={id}>
                             <FullNews
-                            text={text}
-                            image={image}
-                            categorydevice={categorydevice}
-                            categorybrand={categorybrand}
+                            
                             fullnews={fullnews}
                             author={author}
                             />
