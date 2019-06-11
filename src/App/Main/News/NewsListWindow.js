@@ -12,6 +12,7 @@ class NewsListWindow extends Component{
           image: PropTypes.string.isRequired,
           categorydevice: PropTypes.string.isRequired,
           categorybrand: PropTypes.string.isRequired,
+          author: PropTypes.string.isRequired
          
       }
       render() {
@@ -20,6 +21,8 @@ class NewsListWindow extends Component{
               image="images/no_photo.jpg",
               categorydevice="no device...",
               categorybrand="no brand...",
+              author='No author',
+              
            } = this.props
 
 return (
@@ -28,7 +31,8 @@ return (
                <div className="col-6">
                     <div className="news-window">
                          <div className="img-window">
-                         <Link to="/Fullpage"><img className="img-size" src={image} alt="" target='_blank'/></Link>
+                            
+                         <Link to='/Fullpage'><img className="img-size" src={image} alt="" target='_blank'/></Link>
                          </div>
                               <div className="text-window">
                               <h2><Link to=''>{text}</Link></h2>

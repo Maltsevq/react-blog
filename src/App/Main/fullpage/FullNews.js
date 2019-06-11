@@ -1,15 +1,35 @@
-import React from "react";
+import React, {Component} from "react";
+import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom'
 import './fullpage.css'
 
 
-const FullNews = () => {
+class FullNews extends Component{
+    
+	static propTypes = {
+		text: PropTypes.string.isRequired,
+		image: PropTypes.string.isRequired,
+		categorydevice: PropTypes.string.isRequired,
+		categorybrand: PropTypes.string.isRequired,
+		author: PropTypes.string.isRequired
+	   
+	}
+	render() {
+		const {
+			text="No text...",
+			image="images/no_photo.jpg",
+			categorydevice="no device...",
+			categorybrand="no brand...",
+			author='No author',
+			
+		 } = this.props
+
     return(
 	
             <div>
                 <div className="row">
                 <h1>Складной Samsung Galaxy Fold во всех деталях и со всех сторон на видео</h1>
-	<p>Автор: username, 23 марта 2019, 22:41</p>
+	<p>{author}</p>
 		<div className="img-window1">
 		
 		<Link to=''><img className="img-size2" src="../../images/news/fold1.jpg" alt=""/></Link>
@@ -45,6 +65,6 @@ const FullNews = () => {
            
         )
     }
-
+}
     
 export default FullNews

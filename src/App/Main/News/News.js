@@ -5,7 +5,8 @@ const news = [
         image: "/images/news/mi.png",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Хiaomi",
-        fullnews: '/Fullnews'
+        fullpage: '/Fullpage',
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 2,
@@ -13,6 +14,7 @@ const news = [
         image: "/images/news/tabs5.jpg",
         categorydevice: "Планшеты,",
         categorybrand: "Samsung", 
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 3,
@@ -20,6 +22,7 @@ const news = [
         image: "/images/news/snapdragon.jpg",
         categorydevice: "",
         categorybrand: "Qualcomm Snapdragon",
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 4,
@@ -27,6 +30,7 @@ const news = [
         image: "/images/news/asuszen13.jpg",
         categorydevice: "Ноутбуки,",
         categorybrand: "Asus",
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 5,
@@ -34,6 +38,7 @@ const news = [
         image: "/images/news/acer.jpg",
         categorydevice: "Ноутбуки,",
         categorybrand: "Acer",
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 6,
@@ -41,6 +46,7 @@ const news = [
         image: "/images/news/asuszen14.jpg",
         categorydevice: "Ноутбуки,",
         categorybrand: "Asus",
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 7,
@@ -48,6 +54,7 @@ const news = [
         image: "/images/news/huaweip30.jpg",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Huawei",
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 8,
@@ -55,6 +62,7 @@ const news = [
         image: "/images/news/galaxys10.jpg",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Samsung",
+        author:'username, 23 марта 2019, 22:41'
     },
     {
         id: 9,
@@ -62,6 +70,7 @@ const news = [
         image: "/images/news/redmi7.jpg",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Redmi",
+        author:'username, 23 марта 2019, 22:41'
     },
 ]
 

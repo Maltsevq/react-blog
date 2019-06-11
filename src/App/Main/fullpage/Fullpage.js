@@ -4,17 +4,43 @@ import './fullpage.css';
 
 import FullNews from './FullNews';
 import RightNews from './RightNews';
+import news from '../News/news'
 
 
+const Fullpage = (
 
-const Fullpage = () => {
+) => {
     return (
+      
     <main className="main">
         
           <div className="col-10">
             <div className="row">
-            <FullNews
-            />
+            {
+                        news.map(({
+                        id,
+                        text,
+                        image,
+                        categorydevice,
+                        categorybrand,
+                        fullnews,
+                        author,
+                        
+                        }) => (
+                            <div key={id}>
+                            <FullNews
+                            text={text}
+                            image={image}
+                            categorydevice={categorydevice}
+                            categorybrand={categorybrand}
+                            fullnews={fullnews}
+                            author={author}
+                            />
+                            
+                            </div>
+                            
+                        ))
+                    }
             </div>
           </div>
           <div className="col-4">
