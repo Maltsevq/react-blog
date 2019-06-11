@@ -4,6 +4,7 @@ import React from "react";
 import NewsListWindow from "./NewsListWindow";
 import news from './news'
 
+
 const NewsList = () => {
     return(
             <div>
@@ -24,9 +25,11 @@ const NewsList = () => {
                             categorydevice={categorydevice}
                             categorybrand={categorybrand}
                             />
+                            
                             </div>
                         ))
                     }
+                    =
                 </div>
             </div>
         )

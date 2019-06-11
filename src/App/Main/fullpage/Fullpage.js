@@ -1,20 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-import './fullpage.css'
-import Breadcrumbs from './Breadcrumbs/Breadcrumbs'
+import './fullpage.css';
+
+import FullNews from './FullNews';
+import RightNews from './RightNews';
+
 
 
 const Fullpage = () => {
     return (
     <main className="main">
-        <div className="row">
-          <div>
-              <Breadcrumbs/>
-          </div>
-        </div>
+        
           <div className="col-10">
             <div className="row">
-              <FullNews/>
+            <FullNews
+            />
             </div>
           </div>
           <div className="col-4">
@@ -26,3 +26,4 @@ const Fullpage = () => {
     )
   }
   export default Fullpage
+ 

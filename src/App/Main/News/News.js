@@ -5,13 +5,14 @@ const news = [
         image: "/images/news/mi.png",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Хiaomi",
+        fullnews: '/Fullnews'
     },
     {
         id: 2,
         text: 'Samsung Galaxy Tab S5e в Украине: тонкий планшет с чипом Snapdragon 670 и ценником от 16 000 грн',
         image: "/images/news/tabs5.jpg",
         categorydevice: "Планшеты,",
-        categorybrand: "Samsung",
+        categorybrand: "Samsung", 
     },
     {
         id: 3,

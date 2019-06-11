@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom'
 import './category.css'
 
 
+
+
 const Category = () => {
     return (
 <div className="category">
