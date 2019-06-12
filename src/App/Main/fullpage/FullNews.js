@@ -13,13 +13,13 @@ class FullNews extends Component{
 	render() {
 		const {
 
-			fullnews='No news'
+			fulln='No news'
 		 } = this.props
 
     return(
 	
             <div>
-               {fullnews}
+               {fulln}
             </div>
            
         )

@@ -18,7 +18,8 @@ const Fullpage = (
             <div className="row">
             {
                         news.map(({
-                        id,   
+                        id,
+                        
                         fullnews,
                         author,
                             }) => (
