@@ -22,7 +22,7 @@ const Main = () => {
           <div className="col-5">
             <div className="row">
               <Route exact path='/' component={NewsList}/>
-              <Route path='/Fullpage' component={Fullpage}/>
+              <Route exact path='/Fullpage/:newsId?' component={Fullpage}/>
               <Route path='/categoryPage' component={categoryPage}/>
             </div>
           </div>
