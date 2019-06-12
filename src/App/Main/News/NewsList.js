@@ -22,6 +22,7 @@ const NewsList = () => {
                         }) => (
                             <div key={id}>
                             <NewsListWindow
+                            id={id}
                             text={text}
                             image={image}
                             categorydevice={categorydevice}

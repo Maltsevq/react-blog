@@ -32,7 +32,7 @@ return (
                     <div className="news-window">
                          <div className="img-window">
                             
-                         <Link to='/Fullpage'><img className="img-size" src={image} alt="" target='_blank'/></Link>
+                         <Link to={`/Fullpage/${this.props.id}`}><img className="img-size" src={image} alt="" target='_blank'/></Link>
                          </div>
                               <div className="text-window">
                               <h2><Link to=''>{text}</Link></h2>

@@ -7,8 +7,9 @@ import RightNews from './RightNews';
 import news from '../News/news'
 
 const Fullpage = (
-
+ {match}
 ) => {
+  console.log(match)
     return (
       
     <main className="main">
@@ -17,8 +18,7 @@ const Fullpage = (
             <div className="row">
             {
                         news.map(({
-                        id,
-                      
+                        id,   
                         fullnews,
                         author,
                             }) => (
