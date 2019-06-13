@@ -7,9 +7,15 @@ import RightNews from './RightNews';
 import news from '../News/news'
 
 const Fullpage = (
+<<<<<<< HEAD
  match,
 ) => {
 console.log(match)
+=======
+ {match}
+) => {
+  console.log(match)
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     return (
       
     <main className="main">
@@ -19,6 +25,7 @@ console.log(match)
             {
                         news.map(({
                         id,
+<<<<<<< HEAD
                         fullnews,
                         
                             }) => (
@@ -28,6 +35,17 @@ console.log(match)
                             
                             fullnews={fullnews}
                             
+=======
+                        
+                        fullnews,
+                        author,
+                            }) => (
+                            <div key={id}>
+                            <FullNews
+                            
+                            fullnews={fullnews}
+                            author={author}
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
                             />
                             
                             </div>

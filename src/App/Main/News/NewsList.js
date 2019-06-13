@@ -16,7 +16,13 @@ const NewsList = () => {
                         image,
                         categorydevice,
                         categorybrand,
+<<<<<<< HEAD
 
+=======
+                        fullnews,
+                        author,
+                        
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
                         }) => (
                             <div key={id}>
                             <NewsListWindow
@@ -25,7 +31,12 @@ const NewsList = () => {
                             image={image}
                             categorydevice={categorydevice}
                             categorybrand={categorybrand}
+<<<<<<< HEAD
 
+=======
+                            fullnews={fullnews}
+                            author={author}
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
                             />
                             
                             </div>

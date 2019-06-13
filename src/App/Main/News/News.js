@@ -62,8 +62,12 @@ const news = [
         image: "/images/news/snapdragon.jpg",
         categorydevice: "",
         categorybrand: "Qualcomm Snapdragon",
+<<<<<<< HEAD
         author:'username, 23 марта 2019, 22:41',
         fullnews: '<div className="row"></div>'
+=======
+        author:'username, 23 марта 2019, 22:41'
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     },
     {
         id: 4,
@@ -71,8 +75,12 @@ const news = [
         image: "/images/news/asuszen13.jpg",
         categorydevice: "Ноутбуки,",
         categorybrand: "Asus",
+<<<<<<< HEAD
         author:'username, 23 марта 2019, 22:41',
         fullnews: '<div className="row"></div>'
+=======
+        author:'username, 23 марта 2019, 22:41'
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     },
     {
         id: 5,
@@ -80,8 +88,12 @@ const news = [
         image: "/images/news/acer.jpg",
         categorydevice: "Ноутбуки,",
         categorybrand: "Acer",
+<<<<<<< HEAD
         author:'username, 23 марта 2019, 22:41',
         fullnews: '<div className="row"></div>'
+=======
+        author:'username, 23 марта 2019, 22:41'
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     },
     {
         id: 6,
@@ -89,8 +101,12 @@ const news = [
         image: "/images/news/asuszen14.jpg",
         categorydevice: "Ноутбуки,",
         categorybrand: "Asus",
+<<<<<<< HEAD
         author:'username, 23 марта 2019, 22:41',
         fullnews: '<div className="row"></div>'
+=======
+        author:'username, 23 марта 2019, 22:41'
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     },
     {
         id: 7,
@@ -98,8 +114,12 @@ const news = [
         image: "/images/news/huaweip30.jpg",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Huawei",
+<<<<<<< HEAD
         author:'username, 23 марта 2019, 22:41',
         fullnews: '<div className="row"></div>'
+=======
+        author:'username, 23 марта 2019, 22:41'
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     },
     {
         id: 8,
@@ -107,8 +127,12 @@ const news = [
         image: "/images/news/galaxys10.jpg",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Samsung",
+<<<<<<< HEAD
         author:'username, 23 марта 2019, 22:41',
         fullnews: '<div className="row"></div>'
+=======
+        author:'username, 23 марта 2019, 22:41'
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     },
     {
         id: 9,
@@ -116,8 +140,12 @@ const news = [
         image: "/images/news/redmi7.jpg",
         categorydevice: "Мобильные телефоны,",
         categorybrand: "Redmi",
+<<<<<<< HEAD
         author:'username, 23 марта 2019, 22:41',
         fullnews: '<div className="row"></div>'
+=======
+        author:'username, 23 марта 2019, 22:41'
+>>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
     },
 ]
 
