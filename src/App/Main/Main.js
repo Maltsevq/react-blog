@@ -15,9 +15,11 @@ const Main = () => {
           <div>
               <Breadcrumbs/>
           </div>
-        </div>
+        
           <div className="col-4">
+            <div className="row">
               <Route exact path='/' component={Category}/>
+          </div>
           </div>
           <div className="col-5">
             <div className="row">
@@ -25,6 +27,7 @@ const Main = () => {
               <Route exact path='/Fullpage/:newsId?' component={Fullpage}/>
               <Route path='/categoryPage' component={categoryPage}/>
             </div>
+          </div>
           </div>
     </main>
     </div>

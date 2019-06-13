@@ -34,7 +34,7 @@ return (
                          <Link to={`/Fullpage/${this.props.id}`}><img className="img-size" src={image} alt="" target='_blank'/></Link>
                          </div>
                               <div className="text-window">
-                              <h2><Link to=''>{text}</Link></h2>
+                              <h2><Link to={`/Fullpage/${this.props.id}`}>{text}</Link></h2>
                               </div>
                                    <div className="category-window">
                                    <Link to='/categoryPage'>{categorydevice} </Link><Link to=''>{categorybrand}</Link>

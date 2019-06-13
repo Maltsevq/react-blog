@@ -20,13 +20,14 @@ console.log(match)
                         news.map(({
                         id,
                         fullnews,
-                        author,
+                        
                             }) => (
                             <div key={id}>
                             <FullNews
+                           
                             
                             fullnews={fullnews}
-                            author={author}
+                            
                             />
                             
                             </div>
@@ -40,7 +41,8 @@ console.log(match)
           </div>
     </main>
     
-
+   
+    
     )
   }
   export default Fullpage

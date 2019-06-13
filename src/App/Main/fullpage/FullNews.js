@@ -5,8 +5,7 @@ import './fullpage.css'
 
 
 class FullNews extends Component{
-   
-	render() {
+render() {
 		const {
 			
 			fullnews='No news'
@@ -16,7 +15,7 @@ class FullNews extends Component{
 	
             <div>
 				
-            {fullnews}
+           {fullnews}
             </div>
            
         )
