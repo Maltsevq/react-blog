@@ -21,12 +21,7 @@ class NewsListWindow extends Component{
               image="images/no_photo.jpg",
               categorydevice="no device...",
               categorybrand="no brand...",
-<<<<<<< HEAD
                
-=======
-             
-              
->>>>>>> 1717862778222c82ae6f84bc1c0622752bbefb27
            } = this.props
 
 return (
