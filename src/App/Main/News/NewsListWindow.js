@@ -17,11 +17,12 @@ class NewsListWindow extends Component{
       }
       render() {
           const {
+               id,
               text="No text...",
               image="images/no_photo.jpg",
               categorydevice="no device...",
               categorybrand="no brand...",
-               
+              
            } = this.props
 
 return (
@@ -30,11 +31,10 @@ return (
                <div className="col-6">
                     <div className="news-window">
                          <div className="img-window">
-                            
-                         <Link to={`/Fullpage/${this.props.id}`}><img className="img-size" src={image} alt="" target='_blank'/></Link>
+                         <Link to={`/news/${id}`}><img className="img-size" src={image} alt="" target='_blank'/></Link>
                          </div>
                               <div className="text-window">
-                              <h2><Link to={`/Fullpage/${this.props.id}`}>{text}</Link></h2>
+                              <h2><Link to={`/news/${id}`}>{text}</Link></h2>
                               </div>
                                    <div className="category-window">
                                    <Link to='/categoryPage'>{categorydevice} </Link><Link to=''>{categorybrand}</Link>
