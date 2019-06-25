@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
-import {Link} from 'react-router-dom'
-import './news.css'
+import {Link} from 'react-router-dom';
+import './news.css';
+import {connect} from 'react-redux'
 
 
 
@@ -22,28 +23,38 @@ class NewsListWindow extends Component{
               image="images/no_photo.jpg",
               categorydevice="no device...",
               categorybrand="no brand...",
-              
+              isLiked= false,
            } = this.props
 
 return (
      
           <div>
+               
                <div className="col-6">
+               <button className="button">{isLiked ? <span className="heartlike"></span> : <span className="heartunlike"></span>}</button>
                     <div className="news-window">
                          <div className="img-window">
+                              
                          <Link to={`/news/${id}`}><img className="img-size" src={image} alt="" target='_blank'/></Link>
                          </div>
                               <div className="text-window">
                               <h2><Link to={`/news/${id}`}>{text}</Link></h2>
                               </div>
                                    <div className="category-window">
-                                   <Link to='/categoryPage'>{categorydevice} </Link><Link to=''>{categorybrand}</Link>
+                                   <Link to=''>{categorydevice} </Link><Link to=''>{categorybrand}</Link>
                                    </div>
                     </div>
                </div>
+               
           </div>
          
        )
    }
 }
-export default NewsListWindow
+
+const mapStateToProps = (state,props)=>({
+     isLiked:state[props.id]
+ })
+ 
+
+export default connect(mapStateToProps)(NewsListWindow)

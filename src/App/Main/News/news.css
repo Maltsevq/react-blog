@@ -48,4 +48,45 @@
 .category-window a:hover{
 	text-decoration: underline;
 }
- 
+.button{
+	position: absolute;
+	margin: 5px;
+	width: 25px;
+	height: 25px;
+
+}
+.heartlike{
+	 position: absolute;
+	 bottom:-7px;
+	 right: -7px;
+	 margin: 5px;
+	 width: 25px;
+	 height: 25px;
+	 background-image: url("images/heart1.png");
+	 background-color: #2f373e;
+	 background-repeat:no-repeat;
+	 background-position: center;
+	 
+ }
+
+ .heartunlike{
+	bottom:-7px;
+	right: -7px;
+	position: absolute;
+	margin: 5px;
+	width: 25px;
+	height: 25px;
+	background-image: url("images/heart white.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-color: #2f373e;
+
+}
+.heartunlike:hover{
+	cursor: pointer;
+	background-image: url("images/heart1.png");
+	background-color: #2f373e;
+	background-repeat:no-repeat;
+	background-position: center;
+	
+}

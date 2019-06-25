@@ -1,11 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
 import './index.css';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom';
+import newsLikeReducer from './store/news.like.reducer';
+import {createStore} from 'redux';
 
-ReactDOM.render(<BrowserRouter><App /></BrowserRouter>
+
+
+
+const store = createStore(newsLikeReducer)
+
+ReactDOM.render(
+        <Provider store={store}>
+            <BrowserRouter>
+                <App />
+            </BrowserRouter>
+        </Provider>
     
     
     

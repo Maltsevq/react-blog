@@ -11,7 +11,7 @@ const Category = () => {
     return (
 <div className="category">
             <div><h1>Категории</h1>
-            <p><Link to=''>Мобильные телефоны</Link></p>
+            <p><Link to='/categoryPage'>Мобильные телефоны</Link></p>
             <p><Link to=''>Планшеты</Link></p>
             <p><Link to=''>Ноутбуки</Link></p>
             <p><Link to=''>Умные часы</Link></p>
