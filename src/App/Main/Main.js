@@ -25,7 +25,7 @@ const Main = () => {
             <div className="row">
               <Route exact path='/' component={NewsList}/>
               <Route exact path={'/news/:productid'} component={Fullpage}/>
-              <Route path='/categoryPage' component={categoryPage}/>
+              <Route exact path='/categoryPage' component={categoryPage}/>
             </div>
           </div>
           </div>

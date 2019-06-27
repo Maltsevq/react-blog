@@ -16,6 +16,16 @@ class NewsListWindow extends Component{
           
          
       }
+      changeLikeState = () => {
+          if(this.props.isLiked){
+              this.props.removeLike(this.props.id)
+
+          }else{
+              this.props.addLike(this.props.id)
+          }
+
+      }
+
       render() {
           const {
                id,
@@ -31,7 +41,7 @@ return (
           <div>
                
                <div className="col-6">
-               <button className="button">{isLiked ? <span className="heartlike"></span> : <span className="heartunlike"></span>}</button>
+               <button className="button" onClick={()=>this.changeLikeState()}>{isLiked ? <span className="heartlike"></span> : <span className="heartunlike"></span>}</button>
                     <div className="news-window">
                          <div className="img-window">
                               
@@ -55,6 +65,19 @@ return (
 const mapStateToProps = (state,props)=>({
      isLiked:state[props.id]
  })
- 
+ const mapDispatchToProps = (dispatch) =>({
 
-export default connect(mapStateToProps)(NewsListWindow)
+     addLike: (id) => dispatch({
+         type: 'LIKE',
+         id:id,
+     }) ,
+     removeLike: (id) => dispatch({
+         type: 'DISLIKE',
+         id:id,
+     })
+
+
+})
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(NewsListWindow)
